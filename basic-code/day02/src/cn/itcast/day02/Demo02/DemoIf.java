@@ -11,5 +11,6 @@ public class DemoIf {
         }
         System.out.println("回家吃饭");
         System.out.println("1105-1");
+        System.out.println("1105-2");
     }
 }
