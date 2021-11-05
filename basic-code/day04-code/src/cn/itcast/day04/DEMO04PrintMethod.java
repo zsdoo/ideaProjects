@@ -14,3 +14,5 @@ public class DEMO04PrintMethod {
         }
     }
 }
+
+// 测试一下
