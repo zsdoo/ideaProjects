@@ -5,7 +5,7 @@ public class Demo03Person {
         Person person= new Person();
         person.show();
 
-        person.name="赵丽颖";
+        person.setName("赵丽");
 //        person.age=-20; //直接访问private内容，错误写法！
         person.setAge(50);
         person.show();

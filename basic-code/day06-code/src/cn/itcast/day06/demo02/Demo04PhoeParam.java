@@ -5,7 +5,7 @@ public class Demo04PhoeParam {
         Phone one = new Phone();
         one.brand="苹果";
         one.price=8388.0;
-        one.color="土豪金";
+        one.color="H 金";
 
         method(one); //传递进去的参数是地址值
     }

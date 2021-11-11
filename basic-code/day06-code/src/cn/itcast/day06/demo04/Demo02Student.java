@@ -10,6 +10,4 @@ public class Demo02Student {
         stu2.setAge(21);//改变年龄
         System.out.println("姓名："+stu2.getName()+",年龄："+stu2.getAge());
     }
-
-
 }

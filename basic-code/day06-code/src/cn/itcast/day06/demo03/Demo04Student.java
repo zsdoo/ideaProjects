@@ -11,7 +11,5 @@ public class Demo04Student {
         System.out.println("姓名："+stu.getName());
         System.out.println("年龄："+stu.getAge());
         System.out.println("是不是爷们儿："+stu.isMale());
-
-
     }
 }

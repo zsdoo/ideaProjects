@@ -12,7 +12,7 @@ package cn.itcast.day06.demo03;
 对于Setter来说，不能有返回值，参数类型和成员变量对应。
  */
 public class Person {
-    String name; //姓名
+    private String name; //姓名
     private int age; //年龄
     public void show() {
         System.out.println("我叫:"+name+",年龄是："+age);
@@ -25,6 +25,17 @@ public class Person {
             System.out.println("数据不合理！");
         }
 
+    }
+    public void setName(String str){
+        if(str.length()==2){
+            name=str;
+        } else {
+            System.out.println("错误！名称要是两个字");
+        }
+
+    }
+    public String getName(){
+        return name;
     }
     //这个成员方法，专门获取age的数据
     public int getAge(){
